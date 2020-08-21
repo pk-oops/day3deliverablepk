@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #ededed;
+}
+h3{
+    font-size: 4em;
+}
+hr{
+    font-weight: 100px;
+}
+p{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+h5{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+header div{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+nav{
+    width: 600px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pk ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.link{
+    display: flex;
+    border: solid;
+    padding: 0 10px;
+    border-width: lighter;
+}
+header img{
+    width: 20px;
+    height: 20px;
+}
+header a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+#things div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(assets/b1.png);
+    color: white;
+    padding: 50px;
+}
+#things h1{
+    font-size: 4em;
+    margin: 20px;
+}
+#things p{
+    height: 100px;
+    width: 40%;
+    font-size: 1.5em;
+}
+#java div{
+    display: flex;
+    background: url(assets/background2.png);
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    color: white;
+    background-color: gray;
+}
+#java div h2{
+    height: 120px;
+    width: 30%;
+    font-size: 3em;
+    padding: 0 5px 0;
+    /*margin: 0,0,700px;*/
+    line-height: 1;
+}
+#java div p{
+    height: 100px;
+    width: 40%;
+    font-size: 1.5em; 
+}
+#java div ul{
+    list-style: none;
+    font-size: 1.5em;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+#source {
+    display: flex;
+    padding: 70px;
+}
+#source div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#source div h2{
+    font-size: 3em;
+    height: 100px;
+    width: 30%;
+    margin: 0 5px 0 0;
+    line-height: 1;
+}
+#source div p{
+    height: 100px;
+    width: 50%;
+    font-size: 1.5em;
+}
+#palani{
+    display: flex;
+    width: 100%;
+}
+#palani div{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#palani h3,p,hr{
+    margin: 20px 20px 20px 0;
+}
+#palani div  article{
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 10px 5px;
+    align-items: center;
+    border-radius: 20%;
+}
+#final{
+    display: flex;
+    background: url(assets/background.png);
+    padding: 50px;
+    color: white;
+    border-bottom: 1px solid lightgray;
+}
+#final img{
+    height: 30px;
+    width: 30px;
+}
+#final div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#final div p{
+    height: 100px;
+    width: 50%;
+}
+#mine {
+    display: flex;
+    padding: 70px;
+}
+#mine div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mine div h2{
+    font-size: 3em;
+    height: 100px;
+    width: 30%;
+    margin: 0 5px 0 0;
+    line-height: 1;
+    align-content: flex-end;
+}
+#mine image{
+    display: flex;
+    height: 300px;
+    width: 400px;
+}
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#footer div{
+    display: flex;
+    padding: 0  100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer div article{
+    padding: 0 70px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#footer div article ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    line-height: 1;
+}
